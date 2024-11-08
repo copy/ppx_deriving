@@ -1,6 +1,7 @@
 (library
  (name ppx_deriving_runtime)
  (public_name ppx_deriving.runtime)
+ (modes melange native)
  (wrapped false)
  (synopsis "Type-driven code generation"))
 
